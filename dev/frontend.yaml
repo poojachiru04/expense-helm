@@ -1,0 +1,16 @@
+appName: frontend
+
+service:
+  type: ClusterIP
+  port: 80
+
+replicas: 1
+env: {}
+
+schemaJob:
+  enabled: false
+
+ingress:
+  enabled: true
+  name: frontend-dev.poodevops.online
+

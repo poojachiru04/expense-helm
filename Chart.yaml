@@ -1,0 +1,4 @@
+apiVersion: v2
+name: ExpenseApp-Helm-Chart
+description: Expense App Helm Chart
+version: 1.0.0
