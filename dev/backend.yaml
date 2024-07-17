@@ -7,10 +7,10 @@ service:
 replicas: 1
 
 env:
-  DB_HOST: dev-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com
+  DB_HOST: dev-rds.c1c8gqc8u2sp.us-east-1.rds.amazonaws.com
   login_user: admin1
   login_password: ExpenseApp123
-  login_host: dev-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com
+  login_host: dev-rds.c1c8gqc8u2sp.us-east-1.rds.amazonaws.com
   app_repo: "https://github.com/poojachiru04/expense-backend"
   schema_file: /app/schema/backend.sql
 
